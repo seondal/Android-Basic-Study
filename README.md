@@ -1,2 +1,4 @@
 # android-basics-in-kotlin
- GDSC 스터디 : Android Basics in Kotlin
+
+### 🔽 TIL
+https://velog.io/@seondal/series/GDSC-Android-Basics-in-Kotlin
