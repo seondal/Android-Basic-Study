@@ -113,6 +113,7 @@ class MainActivity : AppCompatActivity() {
         //  - If the lemonSize has reached 0, it has been juiced and the state should become DRINK
         //  - Additionally, lemonSize is no longer relevant and should be set to -1
         else if (lemonadeState == SQUEEZE){
+            
             lemonSize--
             squeezeCount++
             if(lemonSize == 0){
