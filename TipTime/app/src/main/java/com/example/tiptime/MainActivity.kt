@@ -11,11 +11,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.calculateButton.setOnClickListener {calculateTip()}
+//        binding.calculateButton.setOnClickListener {calculateTip()}
     }
 
-    fun calculateTip() {
-        val stringInTextField = binding.costOfService.text.toString()
-        val cost = stringInTextField.toDouble()
-    }
+//    fun calculateTip() {
+//        val stringInTextField = binding.costOfService.text.toString()
+//        val cost = stringInTextField.toDouble()
+//        val selectedId = binding.tipOptions.checkedRadioButtonId
+//    }
 }
